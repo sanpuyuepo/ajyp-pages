@@ -1,0 +1,35 @@
+{
+  "name": "ajyp-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "ajyp-pages",
+    "zce"
+  ],
+  "repository": "sanpuyuepo/ajyp-pages",
+  "license": "MIT",
+  "author": "sanpuyuepo <sanpuyuepo_scu@163.com> (https://sanpuyuep.me)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
